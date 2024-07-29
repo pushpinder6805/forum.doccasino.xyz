@@ -1,0 +1,45 @@
+//this is head //
+<style>
+/* Default styles for desktop */
+.video-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-player {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 992px) {
+    
+    .banner-box{
+    background-size: contain !important;
+    background-color: #f3383f !important;
+    max-height: 302px !important;
+    }
+}
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (divide the height by the width and multiply by 100) */
+  }
+
+  .video-player {
+
+    left: 0;
+
+  }
+}
+</style>
+
+
+
+
+<script type="text/discourse-plugin" version="1.3.0">
+    api.changeWidgetSetting('home-logo', 'href', 'https://forum.doccasino.xyz/')
+</script>
+
+
+
