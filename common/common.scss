@@ -11,6 +11,29 @@
     font-size: 13px;
   }
 
+  @media (min-width: 780px) {
+    div.hero {
+        justify-content: space-around;
+        top: 60px;
+    }
+}
+.hero {
+    background: #3164fa;
+    background-image: url(https://assets.website-files.com/5e99742…/6363b3b…_bh-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    height: 230px;
+    overflow: hidden;
+}
+
   //footer//
   .custom-footer { 
     display: flex; 
